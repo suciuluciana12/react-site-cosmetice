@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Breathing'; /*Can be any text*/
+  src: local('Breathing'), url('../fonts/Breathing.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Andantinoscript'; /*Can be any text*/
+  src: local('Andantinoscript'),
+    url('../fonts/Andantinoscript.ttf') format('truetype');
+}
+.logo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nume {
+  font-size: 20px;
+}
+.rights {
+  font-size: 12px;
+}
+@media only screen and (max-width: 540px) {
+  .logo {
+    margin-top: 20px;
+  }
+}
